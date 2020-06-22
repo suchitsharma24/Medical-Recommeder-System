@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Triagem</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial=scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+
+		<div class="page-header">
+			<a href="/home/home.html"><h1>Dirac <small>beta</small></h1></a>
+			<p>Sistema de auxílio médico para diagnósticos</p>
+		</div>
+
+		<div id="message" class="hidden">
+			<a href="#" class="close" data-hide="alert" aria-label="close">&times;</a>
+			<span class="glyphicon glyphicon-ok"></span> <b>Sucesso!</b> Sinais inseridos com sucesso
+		</div>
+
+		<div class="row">
+			<div class="col-sm-2">
+				<div class="dropdown">
+					<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+						<span class="glyphicon glyphicon-menu-hamburger"></span> Menu
+					</button>
+					<ul class="dropdown-menu">
+						<li><a href="/edit/register.html">Cadastrar paciente</a></li>
+						<li><a href="/edit/signals.html">Triagem</a></li>
+						<li><a href="/edit/symptom.html">Inserir sintomas</a></li>
+						<li><a href="/results/results.html">Ficha do paciente</a></li>
+						<li class="divider"></li>
+						<li><a href="/home/about.html">Sobre</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-10">
+				<h2>Triagem</h2>
+				<form id="form" class="form-horizontal" action="/edit/signals" method="post">
+					<div class="form-group">
+						<label class="control-label col-sm-2" for="temperature">Temperatura:</label>
+						<div class="col-sm-10">
+							<input type="number" step="0.1" name="temperature" class="form-control" id="temperature" value="36" autofocus required>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="control-label col-sm-2" for="pressure">Pressão:</label>
+						<div class="col-sm-10">
+							<input type="text" name="pressure" class="form-control" id="pressure" placeholder="Insira a pressão" required>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="col-sm-offset-2 col-sm-10">
+						<button type="submit" class="btn btn-default">Salvar</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<script>
+
+			// fecha os alertas
+			$(function(){
+    			$("[data-hide]").on("click", function(){
+        			$("." + $(this).attr("data-hide")).slideUp("slow");
+        		});
+        	});
+
+			// Adiciona um submit handler para o form
+			$('#form').submit(function(e) {
+				// Exibe uma mensagem de dado inserido com sucesso (modificar)
+				$('#message').removeClass('hidden').addClass('alert alert-success fade in').slideDown("slow");
+
+				// Impede o form de submeter normalmente
+				e.preventDefault();
+
+				// Obtem os valores do form
+				var $form = $(this),
+					t = $form.find("input[name='temperature']").val(),
+					p = $form.find("input[name='pressure']").val(),
+					url = $form.attr("action");
+
+				// Envia o dado para o server usando HTTP POST
+				var posting = $.post(url,{temperature: t, pressure: p});
+			});
+
+		</script>
+		
+	</div>
+</body>
+</html>

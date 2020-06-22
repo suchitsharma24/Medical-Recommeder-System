@@ -1,0 +1,465 @@
+# Arquivo .nq contendo a descrição dos sintomas, sinais e diagnósticos
+# Sistema de Auxílio Médico para Diagnósticos
+# Luis Henrique Meazzini Sepulvene, Márcio Aduil Gomes Júnior
+
+# Trocar os nomes de cada entidade por um UUID ou CID10
+
+# PNEUMONIA
+
+<MedicalCondition:pneumonia> <http://health-lifesci.schema.org/name> "Pneumonia" .
+<MedicalCondition:pneumonia> <http://health-lifesci.schema.org/description> "Infecção que irrita os sacos de ar em um ou ambos os pulmões, que podem se encher de líquido" .
+<MedicalCondition:pneumonia> <http://health-lifesci.schema.org/image> </img/pneumonia.jpeg> .
+<MedicalCondition:pneumonia> <http://health-lifesci.schema.org/code> <MedicalCode:J18> .
+<MedicalCondition:pneumonia> <http://health-lifesci.schema.org/Drug> <Drug:acetilcisteina> .
+<MedicalCondition:pneumonia> <http://health-lifesci.schema.org/Drug> <Drug:aires> .
+<MedicalCondition:pneumonia> <http://health-lifesci.schema.org/Drug> <Drug:amoxicilina> .
+<MedicalCondition:pneumonia> <http://health-lifesci.schema.org/Drug> <Drug:clavulanatoPotacio> .
+<MedicalCondition:pneumonia> <http://health-lifesci.schema.org/Drug> <Drug:ampicilinaSodica> .
+<MedicalCondition:pneumonia> <http://health-lifesci.schema.org/Drug> <Drug:astro> .
+<MedicalCondition:pneumonia> <http://health-lifesci.schema.org/MedicalSignOrSymptom:1> <MedicalSignOrSymptom:dorCostas> .
+<MedicalCondition:pneumonia> <http://health-lifesci.schema.org/MedicalSignOrSymptom:2> <MedicalSignOrSymptom:dorToraxica> .
+<MedicalCondition:pneumonia> <http://health-lifesci.schema.org/MedicalSignOrSymptom:3> <MedicalSignOrSymptom:tosseComCatarro> .
+<MedicalCondition:pneumonia> <http://health-lifesci.schema.org/MedicalSignOrSymptom:4> <MedicalSignOrSymptom:tosseSeca> .
+<MedicalCondition:pneumonia> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:calafrio> .
+<MedicalCondition:pneumonia> <http://health-lifesci.schema.org/MedicalSignOrSymptom:1> <MedicalSignOrSymptom:fadiga> .
+<MedicalCondition:pneumonia> <http://health-lifesci.schema.org/MedicalSignOrSymptom:2> <MedicalSignOrSymptom:febre> .
+<MedicalCondition:pneumonia> <http://health-lifesci.schema.org/MedicalSignOrSymptom:3> <MedicalSignOrSymptom:malEstar> .
+<MedicalCondition:pneumonia> <http://health-lifesci.schema.org/MedicalSignOrSymptom:4> <MedicalSignOrSymptom:peleFria> .
+<MedicalCondition:pneumonia> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:peleUmida> .
+<MedicalCondition:pneumonia> <http://health-lifesci.schema.org/MedicalSignOrSymptom:1> <MedicalSignOrSymptom:suor> .
+<MedicalCondition:pneumonia> <http://health-lifesci.schema.org/MedicalSignOrSymptom:2> <MedicalSignOrSymptom:faltaDeAr> .
+<MedicalCondition:pneumonia> <http://health-lifesci.schema.org/MedicalSignOrSymptom:3> <MedicalSignOrSymptom:respiracaoRapida> .
+<MedicalCondition:pneumonia> <http://health-lifesci.schema.org/MedicalSignOrSymptom:4> <MedicalSignOrSymptom:taquicardia> .
+<MedicalCondition:pneumonia> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:alteracaoPressaoArterial> .
+<MedicalCondition:pneumonia> <http://health-lifesci.schema.org/MedicalSignOrSymptom:1> <MedicalSignOrSymptom:confusaoMental> .
+<MedicalCondition:pneumonia> <http://health-lifesci.schema.org/MedicalSignOrSymptom:2> <MedicalSignOrSymptom:secrecaoMuco> .
+<MedicalCondition:pneumonia> <http://health-lifesci.schema.org/MedicalSignOrSymptom:2> <MedicalSignOrSymptom:toxemia> .
+<MedicalCondition:pneumonia> <http://health-lifesci.schema.org/MedicalRiskFactor:1> <MedicalRiskFactor:fumo> .
+<MedicalCondition:pneumonia> <http://health-lifesci.schema.org/MedicalRiskFactor:2> <MedicalRiskFactor:alcool> .
+<MedicalCondition:pneumonia> <http://health-lifesci.schema.org/MedicalRiskFactor:3> <MedicalRiskFactor:arcondicionado> .
+<MedicalCondition:pneumonia> <http://health-lifesci.schema.org/MedicalRiskFactor:4> <MedicalRiskFactor:resfriadoMalCuidado> .
+<MedicalCondition:pneumonia> <http://health-lifesci.schema.org/MedicalRiskFactor:5> <MedicalRiskFactor:temperaturaReduzida> .
+
+# SINUSITE
+
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/name> "Sinusite" .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/description> "Inflamação da mucosa dos seios da face, região do crânio formada por cavidades ósseas ao redor do nariz, maçãs do rosto e olhos." .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/image> </img/sinusite.jpeg> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/code> <MedicalCode:J01> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/Drug> <Drug:acetilcisteina> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/Drug> <Drug:afrin> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/Drug> <Drug:amoxilina> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/Drug> <Drug:amoxicilina> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/Drug> <Drug:clauvanatoPotassio> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/Drug> <Drug:ampicilinaSodica> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/Drug> <Drug:arflex> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:tosseCronica> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:dorAtrasOlhos> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:dorNariz> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:dorOuvido> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:dorFacial> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:dorTesta> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:dorCabeca> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:coceiraNasal> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:congestaoNasal> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:narizEscorrendo> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:espirro> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:perdaOlfalto> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:olfatoDistorcido> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:fadiga> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:febre> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:malEstar> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:insonia> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:ronco> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:rostoInchado> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:rostoSensivel> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:gargantaInflamada> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:halitose> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:nausea> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/MedicalRiskFactor:3> <MedicalRiskFactor:fumo> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/MedicalRiskFactor:3> <MedicalRiskFactor:animalEstimacao> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/MedicalRiskFactor:3> <MedicalRiskFactor:inverno> .
+<MedicalCondition:sinusite> <http://health-lifesci.schema.org/MedicalRiskFactor:3> <MedicalRiskFactor:faltaExercicioFisico> .
+
+# DENGUE
+
+<MedicalCondition:dengue> <http://health-lifesci.schema.org/name> "Dengue" .
+<MedicalCondition:dengue> <http://health-lifesci.schema.org/description> "Doença febril aguda causada por um vírus, sendo um dos principais problemas de saúde pública no mundo." .
+<MedicalCondition:dengue> <http://health-lifesci.schema.org/image> </img/dengue.jpeg> .
+<MedicalCondition:dengue> <http://health-lifesci.schema.org/code> <MedicalCode:A90> .
+<MedicalCondition:dengue> <http://health-lifesci.schema.org/Drug> <Drug:paracetamol> .
+<MedicalCondition:dengue> <http://health-lifesci.schema.org/Drug> <Drug:dipirona> .
+<MedicalCondition:dengue> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:mialgiar> .
+<MedicalCondition:dengue> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:dorAbdominal> .
+<MedicalCondition:dengue> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:dorAtrasOlhos> .
+<MedicalCondition:dengue> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:dorCostas> .
+<MedicalCondition:dengue> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:dorOssos> .
+<MedicalCondition:dengue> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:dorArticulacoes> .
+<MedicalCondition:dengue> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:febre> .
+<MedicalCondition:dengue> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:fadiga> .
+<MedicalCondition:dengue> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:malEstar> .
+<MedicalCondition:dengue> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:perdaApetite> .
+<MedicalCondition:dengue> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:tremor> .
+<MedicalCondition:dengue> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:suor> .
+<MedicalCondition:dengue> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:dorCabeca> .
+<MedicalCondition:dengue> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:nausea> .
+<MedicalCondition:dengue> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:manchaPele> .
+<MedicalCondition:dengue> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:tontura> .
+<MedicalCondition:dengue> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:pressaoBaixa> .
+
+#ZIKA VIRUS
+
+<MedicalCondition:zika> <http://health-lifesci.schema.org/name> "Zika" .
+<MedicalCondition:zika> <http://health-lifesci.schema.org/description> "Uma doença causada pelo Zika vírus, que é transmitido pela picada do mosquito Aedes aegypti" .
+<MedicalCondition:zika> <http://health-lifesci.schema.org/image> </img/zika.jpeg> .
+<MedicalCondition:zika> <http://health-lifesci.schema.org/code> <MedicalCode:U06> .
+<MedicalCondition:zika> <http://health-lifesci.schema.org/Drug> <Drug:paracetamol> .
+<MedicalCondition:zika> <http://health-lifesci.schema.org/Drug> <Drug:dipirona> .
+<MedicalCondition:zika> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:dorArticulacoes> .
+<MedicalCondition:zika> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:dorAtrasOlhos> .
+<MedicalCondition:zika> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:dorMuscular> .
+<MedicalCondition:zika> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:fadiga> .
+<MedicalCondition:zika> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:febre> .
+<MedicalCondition:zika> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:calafrios> .
+<MedicalCondition:zika> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:perdaApetite> .
+<MedicalCondition:zika> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:suor> .
+<MedicalCondition:zika> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:dorCabeca> .
+<MedicalCondition:zika> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:erupcaoCutanea> .
+<MedicalCondition:zika> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:olhoVermelho> .
+<MedicalCondition:zika> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:vomito> .
+<MedicalCondition:zika> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:diarreia> .
+<MedicalCondition:zika> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:constipacao> .
+<MedicalCondition:zika> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:fotofobia> .
+<MedicalCondition:zika> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:ulcerasMucusaOral> .
+
+#CATAPORA
+
+<MedicalCondition:catapora> <http://health-lifesci.schema.org/name> "Catapora" .
+<MedicalCondition:catapora> <http://health-lifesci.schema.org/description> "Causada por vírus, ela pode ser altamente contagiosa para aqueles que nunca foram acometidos por ela antes ou para aqueles que não receberam a vacina" .
+<MedicalCondition:catapora> <http://health-lifesci.schema.org/image> </img/catapora.jpeg> .
+<MedicalCondition:catapora> <http://health-lifesci.schema.org/Drug> <Drug:aciclovir> .
+<MedicalCondition:catapora> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:febre> .
+<MedicalCondition:catapora> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:bolhasAvermelhadas> .
+<MedicalCondition:catapora> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:coceira> .
+<MedicalCondition:catapora> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:malEstar> .
+<MedicalCondition:catapora> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:perdaApetite> .
+<MedicalCondition:catapora> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:dorCabeca> .
+<MedicalCondition:catapora> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:dorBarriga> .
+<MedicalCondition:catapora> <http://health-lifesci.schema.org/MedicalRiskFactor:3> <MedicalRiskFactor:menos10Anos> .
+
+#RINITE ALERGICA
+
+<MedicalCondition:riniteAlergica> <http://health-lifesci.schema.org/name> "Rinite Alergica" .
+<MedicalCondition:riniteAlergica> <http://health-lifesci.schema.org/description> "Reação imunológica do corpo a partículas inaladas que são consideradas estranhas" .
+<MedicalCondition:riniteAlergica> <http://health-lifesci.schema.org/image> </img/rinite.jpeg> .
+<MedicalCondition:riniteAlergica> <http://health-lifesci.schema.org/Drug> <Drug:androcortil> .
+<MedicalCondition:riniteAlergica> <http://health-lifesci.schema.org/Drug> <Drug:allegra> .
+<MedicalCondition:riniteAlergica> <http://health-lifesci.schema.org/Drug> <Drug:asmofen> .
+<MedicalCondition:riniteAlergica> <http://health-lifesci.schema.org/Drug> <Drug:avamys> .
+<MedicalCondition:riniteAlergica> <http://health-lifesci.schema.org/Drug> <Drug:betametasona> .
+<MedicalCondition:riniteAlergica> <http://health-lifesci.schema.org/Drug> <Drug:betatrinta> .
+<MedicalCondition:riniteAlergica> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:dorOuvido> .
+<MedicalCondition:riniteAlergica> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:dorFacial> .
+<MedicalCondition:riniteAlergica> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:congestaoNasal> .
+<MedicalCondition:riniteAlergica> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:narizEscorrendo> .
+<MedicalCondition:riniteAlergica> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:perdaOlfato> .
+<MedicalCondition:riniteAlergica> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:espirro> .
+<MedicalCondition:riniteAlergica> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:narizEntupido> .
+<MedicalCondition:riniteAlergica> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:coceiraOlhos> .
+<MedicalCondition:riniteAlergica> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:olhosInchados> .
+<MedicalCondition:riniteAlergica> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:olhosMarejados> .
+<MedicalCondition:riniteAlergica> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:olhosVermelhos> . 
+<MedicalCondition:riniteAlergica> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:respiracaoBoca> .
+<MedicalCondition:riniteAlergica> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:respiracaoSibilante> .
+<MedicalCondition:riniteAlergica> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:dorCabeca> .
+<MedicalCondition:riniteAlergica> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:fadiga> .
+<MedicalCondition:riniteAlergica> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:fleuma> .
+<MedicalCondition:riniteAlergica> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:tosse> .
+<MedicalCondition:riniteAlergica> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:irritacaoGarganta> .
+<MedicalCondition:riniteAlergica> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:cefaleia> .
+<MedicalCondition:riniteAlergica> <http://health-lifesci.schema.org/MedicalRiskFactor:3> <MedicalRiskFactor:historicoAlergico> .
+<MedicalCondition:riniteAlergica> <http://health-lifesci.schema.org/MedicalRiskFactor:3> <MedicalRiskFactor:lugarMalVentilado> .
+<MedicalCondition:riniteAlergica> <http://health-lifesci.schema.org/MedicalRiskFactor:3> <MedicalRiskFactor:lugarMalEnsolarado> .
+<MedicalCondition:riniteAlergica> <http://health-lifesci.schema.org/MedicalRiskFactor:3> <MedicalRiskFactor:arPoluido> .
+
+#CHIKUNHUNYA
+
+<MedicalCondition:chikungunya> <http://health-lifesci.schema.org/name> "Febre Chikungunya" .
+<MedicalCondition:chikungunya> <http://health-lifesci.schema.org/alternateName> "Chikungunya" .
+<MedicalCondition:chikungunya> <http://health-lifesci.schema.org/description> "Febre Chikungunya é uma doença parecida com a dengue, causada pelo vírus CHIKV, da família Togaviridae." .
+<MedicalCondition:chikungunya> <http://health-lifesci.schema.org/Drug> <Drug:paracetamol> .
+<MedicalCondition:chikungunya> <http://health-lifesci.schema.org/Drug> <Drug:dipirona> .
+<MedicalCondition:chikungunya> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:febreAlta> .
+<MedicalCondition:chikungunya> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:dorArticulacoes> .
+<MedicalCondition:chikungunya> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:dorCostas> .
+<MedicalCondition:chikungunya> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:dorCabeca> .
+<MedicalCondition:chikungunya> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:dorMuscular> .
+<MedicalCondition:chikungunya> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:erupcoesCutaneas> .
+<MedicalCondition:chikungunya> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:fadiga> .
+<MedicalCondition:chikungunya> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:nausea> .
+<MedicalCondition:chikungunya> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:vomito> .
+<MedicalCondition:chikungunya> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:mialgia> .
+<MedicalCondition:chikungunya> <http://health-lifesci.schema.org/MedicalRiskFactor:3> <MedicalRiskFactor:crianca> .
+<MedicalCondition:chikungunya> <http://health-lifesci.schema.org/MedicalRiskFactor:3> <MedicalRiskFactor:idoso> .
+
+#HEMORROIDA
+
+<MedicalCondition:hemorroida> <http://health-lifesci.schema.org/name> "Hemorroida" .
+<MedicalCondition:hemorroida> <http://health-lifesci.schema.org/description> "São veias inchadas, inflamadas e doloridas localizadas na parte inferior do reto ou do ânus. Elas podem ser tanto internas, quando ocorrem apenas dentro do ânus ou na parte inicial do reto, quanto externas, quando ocorrem na abertura anal, projetando-se para fora do ânus" .
+<MedicalCondition:hemorroida> <http://health-lifesci.schema.org/Drug> <Drug:clordox> .
+<MedicalCondition:hemorroida> <http://health-lifesci.schema.org/Drug> <Drug:hemovirtus> .
+<MedicalCondition:hemorroida> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:pruridoAnal> .
+<MedicalCondition:hemorroida> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:dorAnal> .
+<MedicalCondition:hemorroida> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:sanguePapelFezesVaso> .
+<MedicalCondition:hemorroida> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:dorAoEvacuar> .
+<MedicalCondition:hemorroida> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:nodulosNoAnus> .
+<MedicalCondition:hemorroida> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:inchacoNoAnus> .
+<MedicalCondition:hemorroida> <http://health-lifesci.schema.org/MedicalRiskFactor:3> <MedicalRiskFactor:obesidade> .
+<MedicalCondition:hemorroida> <http://health-lifesci.schema.org/MedicalRiskFactor:3> <MedicalRiskFactor:idadeAvancada> .
+<MedicalCondition:hemorroida> <http://health-lifesci.schema.org/MedicalRiskFactor:3> <MedicalRiskFactor:gravidez> .
+<MedicalCondition:hemorroida> <http://health-lifesci.schema.org/MedicalRiskFactor:3> <MedicalRiskFactor:praticarSexoAnal> .
+<MedicalCondition:hemorroida> <http://health-lifesci.schema.org/MedicalRiskFactor:3> <MedicalRiskFactor:historicoFamiliar> .
+
+
+#CONJUNTIVITE BACTERIANA
+
+<MedicalCondition:conjuntiviteBacteriana> <http://health-lifesci.schema.org/name> "Conjuntivite Bacteriana" .
+<MedicalCondition:conjuntiviteBacteriana> <http://health-lifesci.schema.org/description> "Inflamação da conjuntiva, membrana transparente e fina que reveste a parte da frente do globo ocular (o branco dos olhos) e o interior das pálpebras" .
+<MedicalCondition:conjuntiviteBacteriana> <http://health-lifesci.schema.org/MedicalCause> "bacteria" .
+<MedicalCondition:conjuntiviteBacteriana> <http://health-lifesci.schema.org/Drug> <Drug:asmofen> .
+<MedicalCondition:conjuntiviteBacteriana> <http://health-lifesci.schema.org/Drug> <Drug:celestamine> .
+<MedicalCondition:conjuntiviteBacteriana> <http://health-lifesci.schema.org/Drug> <Drug:celerg> .
+<MedicalCondition:conjuntiviteBacteriana> <http://health-lifesci.schema.org/Drug> <Drug:celergin> .
+<MedicalCondition:conjuntiviteBacteriana> <http://health-lifesci.schema.org/Drug> <Drug:cilodex> .
+<MedicalCondition:conjuntiviteBacteriana> <http://health-lifesci.schema.org/Drug> <Drug:clordox> .
+<MedicalCondition:conjuntiviteBacteriana> <http://health-lifesci.schema.org/Drug> <Drug:fumaratoCetotifeno> .
+<MedicalCondition:conjuntiviteBacteriana> <http://health-lifesci.schema.org/Drug> <Drug:dexavison> .
+<MedicalCondition:conjuntiviteBacteriana> <http://health-lifesci.schema.org/Drug> <Drug:doxiciclina> .
+<MedicalCondition:conjuntiviteBacteriana> <http://health-lifesci.schema.org/Drug> <Drug:flanax> .
+<MedicalCondition:conjuntiviteBacteriana> <http://health-lifesci.schema.org/Drug> <Drug:gentamicina> .
+<MedicalCondition:conjuntiviteBacteriana> <http://health-lifesci.schema.org/Drug> <Drug:hixizine> .
+<MedicalCondition:conjuntiviteBacteriana> <http://health-lifesci.schema.org/Drug> <Drug:maxitrol> .
+<MedicalCondition:conjuntiviteBacteriana> <http://health-lifesci.schema.org/Drug> <Drug:meticorten> .
+<MedicalCondition:conjuntiviteBacteriana> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:olhosVermelhosLacrimejantes> .
+<MedicalCondition:conjuntiviteBacteriana> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:palpebrasInchadas> .
+<MedicalCondition:conjuntiviteBacteriana> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:secressaoPurulenta> .
+<MedicalCondition:conjuntiviteBacteriana> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:palpebrasGrudadadasAoAcordar> .
+<MedicalCondition:conjuntiviteBacteriana> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:coceira> .
+<MedicalCondition:conjuntiviteBacteriana> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:fotofobia> .
+<MedicalCondition:conjuntiviteBacteriana> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:visaoBorrada> .
+<MedicalCondition:conjuntiviteBacteriana> <http://health-lifesci.schema.org/MedicalRiskFactor:3> <MedicalRiskFactor:primavera> .
+
+#CONJUNTIVITE VIRAL
+
+<MedicalCondition:conjuntiviteViral> <http://health-lifesci.schema.org/name> "Conjuntivite Bacteriana" .
+<MedicalCondition:conjuntiviteViral> <http://health-lifesci.schema.org/description> "inflamação da conjuntiva, membrana transparente e fina que reveste a parte da frente do globo ocular (o branco dos olhos) e o interior das pálpebras" .
+<MedicalCondition:conjuntiviteViral> <http://health-lifesci.schema.org/MedicalCause> "bacteria" .
+<MedicalCondition:conjuntiviteViral> <http://health-lifesci.schema.org/Drug> <Drug:asmofen> .
+<MedicalCondition:conjuntiviteViral> <http://health-lifesci.schema.org/Drug> <Drug:celestamine> .
+<MedicalCondition:conjuntiviteViral> <http://health-lifesci.schema.org/Drug> <Drug:celerg> .
+<MedicalCondition:conjuntiviteViral> <http://health-lifesci.schema.org/Drug> <Drug:celergin> .
+<MedicalCondition:conjuntiviteViral> <http://health-lifesci.schema.org/Drug> <Drug:cilodex> .
+<MedicalCondition:conjuntiviteViral> <http://health-lifesci.schema.org/Drug> <Drug:clordox> .
+<MedicalCondition:conjuntiviteViral> <http://health-lifesci.schema.org/Drug> <Drug:fumaratoCetotifeno> .
+<MedicalCondition:conjuntiviteViral> <http://health-lifesci.schema.org/Drug> <Drug:dexavison> .
+<MedicalCondition:conjuntiviteViral> <http://health-lifesci.schema.org/Drug> <Drug:doxiciclina> .
+<MedicalCondition:conjuntiviteViral> <http://health-lifesci.schema.org/Drug> <Drug:flanax> .
+<MedicalCondition:conjuntiviteViral> <http://health-lifesci.schema.org/Drug> <Drug:gentamicina> .
+<MedicalCondition:conjuntiviteViral> <http://health-lifesci.schema.org/Drug> <Drug:hixizine> .
+<MedicalCondition:conjuntiviteViral> <http://health-lifesci.schema.org/Drug> <Drug:maxitrol> .
+<MedicalCondition:conjuntiviteViral> <http://health-lifesci.schema.org/Drug> <Drug:meticorten> .
+<MedicalCondition:conjuntiviteViral> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:olhosVermelhosLacrimejantes> .
+<MedicalCondition:conjuntiviteViral> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:palpebrasInchadas> .
+<MedicalCondition:conjuntiviteViral> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:secressaoEsbranquicada> .
+<MedicalCondition:conjuntiviteViral> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:palpebrasGrudadadasAoAcordar> .
+<MedicalCondition:conjuntiviteViral> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:coceira> .
+<MedicalCondition:conjuntiviteViral> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:fotofobia> .
+<MedicalCondition:conjuntiviteViral> <http://health-lifesci.schema.org/MedicalSignOrSymptom:5> <MedicalSignOrSymptom:visaoBorrada> .
+<MedicalCondition:conjuntiviteViral> <http://health-lifesci.schema.org/MedicalRiskFactor:3> <MedicalRiskFactor:primavera> .
+
+# SINAIS E SINTOMAS
+
+<MedicalSignOrSymptom:febre> <http://health-lifesci.schema.org/name> "Febre" .
+<MedicalSignOrSymptom:tosseComCatarro> <http://health-lifesci.schema.org/name> "Tosse Com Catarro" .
+<MedicalSignOrSymptom:tosseCronica> <http://health-lifesci.schema.org/name> "Tosse Cronica" .
+<MedicalSignOrSymptom:alteracaoPressãoArterial> <http://health-lifesci.schema.org/name> "Alteração na Pressão Arterial" .
+<MedicalSignOrSymptom:dorToraxica> <http://health-lifesci.schema.org/name> "Dor Toráxica" .
+<MedicalSignOrSymptom:confusaoMental> <http://health-lifesci.schema.org/name> "Confusão Mental" .
+<MedicalSignOrSymptom:malEstar> <http://health-lifesci.schema.org/name> "Mal estar" .
+<MedicalSignOrSymptom:faltaDeAr> <http://health-lifesci.schema.org/name> "Falta de ar" .
+<MedicalSignOrSymptom:secrecaoMuco> <http://health-lifesci.schema.org/name> "Secreção ou muco" .
+<MedicalSignOrSymptom:toxemia> <http://health-lifesci.schema.org/name> "Toxemia" .
+<MedicalSignOrSymptom:fraqueza> <http://health-lifesci.schema.org/name> "Fraqueza" .
+<MedicalSignOrSymptom:dorCostas> <http://health-lifesci.schema.org/name> "Dor nas Costas" .
+<MedicalSignOrSymptom:tosseSeca> <http://health-lifesci.schema.org/name> "Tosse Seca" .
+<MedicalSignOrSymptom:calafrio> <http://health-lifesci.schema.org/name> "Calafrio" .
+<MedicalSignOrSymptom:fadiga> <http://health-lifesci.schema.org/name> "Fadiga" .
+<MedicalSignOrSymptom:peleFria> <http://health-lifesci.schema.org/name> "Pele Fria" .
+<MedicalSignOrSymptom:peleUmida> <http://health-lifesci.schema.org/name> "Pele Umida" .
+<MedicalSignOrSymptom:suor> <http://health-lifesci.schema.org/name> "Suor" .
+<MedicalSignOrSymptom:respiracaoRapida> <http://health-lifesci.schema.org/name> "Respiração Rápida" .
+<MedicalSignOrSymptom:taquicardia> <http://health-lifesci.schema.org/name> "Taquicardia" .
+<MedicalSignOrSymptom:alteracaoPressaoArterial> <http://health-lifesci.schema.org/name> "Alteração na Pressão Arterial" .
+<MedicalSignOrSymptom:dorAtrasOlhos> <http://health-lifesci.schema.org/name> "Dor Atrás dos Olhos" .
+<MedicalSignOrSymptom:dorNariz> <http://health-lifesci.schema.org/name> "Dor no Nariz" .
+<MedicalSignOrSymptom:dorOuvido> <http://health-lifesci.schema.org/name> "Dor no Ouvido" .
+<MedicalSignOrSymptom:dorFacial> <http://health-lifesci.schema.org/name> "Dor Facial" .
+<MedicalSignOrSymptom:dorTesta> <http://health-lifesci.schema.org/name> "Dor na Testa" .
+<MedicalSignOrSymptom:dorCabeca> <http://health-lifesci.schema.org/name> "Dor de Cabeça" .
+<MedicalSignOrSymptom:coceiraNasal> <http://health-lifesci.schema.org/name> "Coceira no Nariz" .
+<MedicalSignOrSymptom:congestaoNasal> <http://health-lifesci.schema.org/name> "Congestão Nasal" .
+<MedicalSignOrSymptom:narizEscorrendo> <http://health-lifesci.schema.org/name> "Nariz Escorrendo" .
+<MedicalSignOrSymptom:espirro> <http://health-lifesci.schema.org/name> "Espirro" .
+<MedicalSignOrSymptom:perdaOufato> <http://health-lifesci.schema.org/name> "Perda de Oufato" .
+<MedicalSignOrSymptom:oufatoDistorcido> <http://health-lifesci.schema.org/name> "Oufato Distorcido" .
+<MedicalSignOrSymptom:insonia> <http://health-lifesci.schema.org/name> "Insônia" .
+<MedicalSignOrSymptom:ronco> <http://health-lifesci.schema.org/name> "Ronco" .
+<MedicalSignOrSymptom:rostoInchado> <http://health-lifesci.schema.org/name> "Rosto Inchado" .
+<MedicalSignOrSymptom:rostoSensivel> <http://health-lifesci.schema.org/name> "Rosto Sensivel" .
+<MedicalSignOrSymptom:gargantaInflamada> <http://health-lifesci.schema.org/name> "Garganta Inflamada" .
+<MedicalSignOrSymptom:halitose> <http://health-lifesci.schema.org/name> "Halitose (Mau hálito)" .
+<MedicalSignOrSymptom:nausea> <http://health-lifesci.schema.org/name> "Nausea" .
+
+<MedicalSignOrSymptom:mialgia> <http://health-lifesci.schema.org/name> "Mialgia (Dor Muscular)" .
+<MedicalSignOrSymptom:dorAbdominal> <http://health-lifesci.schema.org/name> "Dor no Abdomem" .
+<MedicalSignOrSymptom:dorOssos> <http://health-lifesci.schema.org/name> "Dor nos Ossos" .
+<MedicalSignOrSymptom:dorArticulacoes> <http://health-lifesci.schema.org/name> "Dor nas Articulações" .
+<MedicalSignOrSymptom:perdaApetite> <http://health-lifesci.schema.org/name> "Perda de Apetite" .
+<MedicalSignOrSymptom:tremor> <http://health-lifesci.schema.org/name> "Tremor" .
+<MedicalSignOrSymptom:manhasPele> <http://health-lifesci.schema.org/name> "Manchas na Pele" .
+<MedicalSignOrSymptom:tontura> <http://health-lifesci.schema.org/name> "Tontura" .
+<MedicalSignOrSymptom:pressaoBaixa> <http://health-lifesci.schema.org/name> "Pressão Baixa" .
+
+<MedicalSignOrSymptom:calafrio> <http://health-lifesci.schema.org/name> "Calafrios" .
+<MedicalSignOrSymptom:erupcaoCutanea> <http://health-lifesci.schema.org/name> "Erupção Cutânea" .
+<MedicalSignOrSymptom:olhoVermelho> <http://health-lifesci.schema.org/name> "Olhos Vermelhos" .
+<MedicalSignOrSymptom:vomito> <http://health-lifesci.schema.org/name> "Vomito" .
+<MedicalSignOrSymptom:diarreia> <http://health-lifesci.schema.org/name> "Diarréia" .
+<MedicalSignOrSymptom:consitacao> <http://health-lifesci.schema.org/name> "Constipação" .
+<MedicalSignOrSymptom:fotofobia> <http://health-lifesci.schema.org/name> "Fotofobia" .
+<MedicalSignOrSymptom:ulserasMucusaOral> <http://health-lifesci.schema.org/name> "Ulseras na Mucosa Oral" .
+
+<MedicalSignOrSymptom:bolhasAvermelhadas> <http://health-lifesci.schema.org/name> "Bolhas Avermelhadas" .
+<MedicalSignOrSymptom:coceira> <http://health-lifesci.schema.org/name> "Coceira" .
+<MedicalSignOrSymptom:dorBarriga> <http://health-lifesci.schema.org/name> "Dor de Barriga" .
+
+<MedicalSignOrSymptom:narizEntupido> <http://health-lifesci.schema.org/name> "Nariz Entupido" .
+<MedicalSignOrSymptom:coceiraOlhos> <http://health-lifesci.schema.org/name> "Coceira nos Olhos" .
+<MedicalSignOrSymptom:olhosMarejados> <http://health-lifesci.schema.org/name> "Olhos Marejados" .
+<MedicalSignOrSymptom:respiracaoBoca> <http://health-lifesci.schema.org/name> "Respirando pela Boca" .
+<MedicalSignOrSymptom:respiracaoSibilante> <http://health-lifesci.schema.org/name> "Respiração Sibilante" .
+<MedicalSignOrSymptom:fleuma> <http://health-lifesci.schema.org/name> "Fleuma" .
+<MedicalSignOrSymptom:irritacaoGarganta> <http://health-lifesci.schema.org/name> "Irrtação na Garganta" .
+<MedicalSignOrSymptom:cefaleia> <http://health-lifesci.schema.org/name> "Cefaleia" .
+
+<MedicalSignOrSymptom:febreAlta> <http://health-lifesci.schema.org/name> "Febre Alta" .
+
+<MedicalSignOrSymptom:pruridoAnal> <http://health-lifesci.schema.org/name> "Prurido Anal" .
+<MedicalSignOrSymptom:dorAnal> <http://health-lifesci.schema.org/name> "Dor no nus" .
+<MedicalSignOrSymptom:sanguePapelFezesVazo> <http://health-lifesci.schema.org/name> "Sengue no Papel Higiênico, fezes ou vazo" .
+<MedicalSignOrSymptom:dorEvacuar> <http://health-lifesci.schema.org/name> "Dor ao Evacuar" .
+<MedicalSignOrSymptom:nodulosNoAnus> <http://health-lifesci.schema.org/name> "Nódulos no ânus" .
+<MedicalSignOrSymptom:inchacoNoAnus> <http://health-lifesci.schema.org/name> "Inchaço no nus" .
+
+<MedicalSignOrSymptom:olhosVermelhosLacrimejantes> <http://health-lifesci.schema.org/name> "Olhos Vermelhos Lacrimejantes" .
+<MedicalSignOrSymptom:aplpebrasInchadas> <http://health-lifesci.schema.org/name> "Palpebras Inchadas" .
+<MedicalSignOrSymptom:secressaoPurulenta> <http://health-lifesci.schema.org/name> "Secressão Purulenta" .
+<MedicalSignOrSymptom:papebrasGrudadasAoAcordar> <http://health-lifesci.schema.org/name> "Palpebras Grudadas ao Acordar" .
+<MedicalSignOrSymptom:visaoBorrada> <http://health-lifesci.schema.org/name> "Visão Borrada" .
+
+<MedicalSignOrSymptom:secressaoEsbranquicada> <http://health-lifesci.schema.org/name> "Secressão Esbranquiçada" .
+
+
+
+
+# FATORES DE RISCO
+
+<MedicalRiskFactor:fumo> <http://health-lifesci.schema.org/name> "Fumo" .
+<MedicalRiskFactor:fumo> <http://health-lifesci.schema.org/increasesRiskOf> <MedicalCondition:pneumonia> .
+<MedicalRiskFactor:fumo> <http://health-lifesci.schema.org/MedicalCode> <MedicalCode:F17> .
+
+<MedicalRiskFactor:alcool> <http://health-lifesci.schema.org/name> "Álcool" .
+<MedicalRiskFactor:alcool> <http://health-lifesci.schema.org/increasesRiskOf> <MedicalCondition:pneumonia> .
+<MedicalRiskFactor:alcool> <http://health-lifesci.schema.org/MedicalCode> <MedicalCode:F10> .
+
+<MedicalRiskFactor:arCondicionado> <http://health-lifesci.schema.org/name> "Ar Condicionado" .
+<MedicalRiskFactor:arCondicionado> <http://health-lifesci.schema.org/increasesRiskOf> <MedicalCondition:pneumonia> .
+
+<MedicalRiskFactor:resfriadoMalCuidado> <http://health-lifesci.schema.org/name> "Resfriado mal cuidado" .
+<MedicalRiskFactor:resfriadoMalCuidado> <http://health-lifesci.schema.org/increasesRiskOf> <MedicalCondition:pneumonia> .
+<MedicalRiskFactor:resfriadoMalCuidado> <http://health-lifesci.schema.org/MedicalCode> <MedicalCode:J00> .
+
+<MedicalRiskFactor:temperaturaReduzida> <http://health-lifesci.schema.org/name> "Temperatura Reduzida" .
+<MedicalRiskFactor:temperaturaReduzida> <http://health-lifesci.schema.org/increasesRiskOf> <MedicalCondition:pneumonia> .
+<MedicalRiskFactor:temperaturaReduzida> <http://health-lifesci.schema.org/MedicalCode> <MedicalCode:T69> .
+
+
+# MEDICAMENTOS
+
+<Drug:acetilcisteina> <http://health-lifesci.schema.org/name> "Acetilcisteina" .
+<Drug:aires> <http://health-lifesci.schema.org/name> "Aires" .
+<Drug:amoxicilina> <http://health-lifesci.schema.org/name> "Amoxicilina" .
+<Drug:clauvanatoPotassio> <http://health-lifesci.schema.org/name> "Clauvanato de Potássio" .
+<Drug:ampicilinaSodica> <http://health-lifesci.schema.org/name> "Ampicilina Sódica" .
+<Drug:astro> <http://health-lifesci.schema.org/name> "Astro" .
+<Drug:afrin> <http://health-lifesci.schema.org/name> "Afrin" .
+<Drug:amoxilina> <http://health-lifesci.schema.org/name> "Amoxilina" .
+<Drug:arflex> <http://health-lifesci.schema.org/name> "Arflex" .
+<Drug:paracetamol> <http://health-lifesci.schema.org/name> "Paracetamol" .
+<Drug:dipirona> <http://health-lifesci.schema.org/name> "Dipirona" .
+<Drug:aciclovir> <http://health-lifesci.schema.org/name> "Aciclovir" .
+<Drug:androcortil> <http://health-lifesci.schema.org/name> "Androcortil" .
+<Drug:allegra> <http://health-lifesci.schema.org/name> "Allegra" .
+<Drug:asmofen> <http://health-lifesci.schema.org/name> "Asmofen" .
+<Drug:avamys> <http://health-lifesci.schema.org/name> "Avamys" .
+<Drug:betametasona> <http://health-lifesci.schema.org/name> "Betametasona" .
+<Drug:betatrinta> <http://health-lifesci.schema.org/name> "Betatrinta" .
+<Drug:clordox> <http://health-lifesci.schema.org/name> "Clordox" .
+<Drug:hemovirtus> <http://health-lifesci.schema.org/name> "Hemovirtus" .
+<Drug:celestamine> <http://health-lifesci.schema.org/name> "Celestamine" .
+<Drug:celerg> <http://health-lifesci.schema.org/name> "Celerg" .
+<Drug:celergin> <http://health-lifesci.schema.org/name> "Celergin" .
+<Drug:cilodex> <http://health-lifesci.schema.org/name> "Cilodex" .
+<Drug:famaratoCetotinfeno> <http://health-lifesci.schema.org/name> "Fumarato de Cetotifeno (Xarope)" .
+<Drug:dexavison> <http://health-lifesci.schema.org/name> "Dexavison" .
+<Drug:doxiciclina> <http://health-lifesci.schema.org/name> "Doxiciclina" .
+<Drug:flanax> <http://health-lifesci.schema.org/name> "Flanax" .
+<Drug:gentamicina> <http://health-lifesci.schema.org/name> "Gentamicina" .
+<Drug:hixizine> <http://health-lifesci.schema.org/name> "Hixizine" .
+<Drug:maxitrol> <http://health-lifesci.schema.org/name> "Maxitrol" .
+<Drug:meticorten> <http://health-lifesci.schema.org/name> "Meticorten" .
+
+
+# CODIGOS CID
+
+<MedicalCode:J18> <http://health-lifesci.schema.org/name> "Pneumonia por microorganismo não especificada" .
+<MedicalCode:J18> <http://health-lifesci.schema.org/codeValue> "J18" .
+<MedicalCode:J18> <http://health-lifesci.schema.org/codingSystem> "CID-10" .
+
+<MedicalCode:F17> <http://health-lifesci.schema.org/name> "Transtornos mentais e comportamentais devidos ao uso de fumo" .
+<MedicalCode:F17> <http://health-lifesci.schema.org/codeValue> "F17" .
+<MedicalCode:F17> <http://health-lifesci.schema.org/codingSystem> "CID-10" .
+
+<MedicalCode:F10> <http://health-lifesci.schema.org/name> "Transtornos mentais e comportamentais devidos ao uso de álcool" .
+<MedicalCode:F10> <http://health-lifesci.schema.org/codeValue> "F10" .
+<MedicalCode:F10> <http://health-lifesci.schema.org/codingSystem> "CID-10" .
+
+<MedicalCode:J00> <http://health-lifesci.schema.org/name> "J00 - Nasofaringite aguda (resfriado comum)" .
+<MedicalCode:J00> <http://health-lifesci.schema.org/codeValue> "J00" .
+<MedicalCode:J00> <http://health-lifesci.schema.org/codingSystem> "CID-10" .
+
+<MedicalCode:T69> <http://health-lifesci.schema.org/name> "Outros efeitos da temperatura reduzida" .
+<MedicalCode:T69> <http://health-lifesci.schema.org/codeValue> "T69" .
+<MedicalCode:T69> <http://health-lifesci.schema.org/codingSystem> "CID-10" .
+
+<MedicalCode:J01> <http://health-lifesci.schema.org/name> "Sinusite Aguda" .
+<MedicalCode:J01> <http://health-lifesci.schema.org/codeValue> "J01" .
+<MedicalCode:J01> <http://health-lifesci.schema.org/codingSystem> "CID-10" .
+
+<MedicalCode:A90> <http://health-lifesci.schema.org/name> "Dengue (Dengue Clássico)" .
+<MedicalCode:A90> <http://health-lifesci.schema.org/codeValue> "A90" .
+<MedicalCode:A90> <http://health-lifesci.schema.org/codingSystem> "CID-10" .
+
+<MedicalCode:U06> <http://health-lifesci.schema.org/name> "Doença pelo Zika virus" .
+<MedicalCode:U06> <http://health-lifesci.schema.org/codeValue> "U06" .
+<MedicalCode:U06> <http://health-lifesci.schema.org/codingSystem> "CID-10" .

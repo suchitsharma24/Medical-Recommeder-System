@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>{{.Name}}</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial=scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container">
+
+		<div class="page-header">
+			<a href="/home/home.html"><h1>Dirac <small>beta</small></h1></a>
+			<p>Sistema de auxílio médico para diagnósticos</p>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-2">
+				<div class="dropdown">
+					<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+						<span class="glyphicon glyphicon-menu-hamburger"></span> Menu
+					</button>
+					<ul class="dropdown-menu">
+						<li><a href="/edit/register.html">Cadastrar paciente</a></li>
+						<li><a href="/edit/signals.html">Inserir sinais</a></li>
+						<li><a href="/edit/symptom.html">Inserir sintomas</a></li>
+						<li><a href="/results/results.html">Gerar ficha do paciente</a></li>
+						<li class="divider"></li>
+						<li><a href="/home/about.html">Sobre</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-sm-10">
+				<h1>{{.Name}} <small>CID-10 {{.Code}}</small></h1>
+				<p>{{.Description}}</p>
+
+				<img src="{{.Image}}" alt="Imagem de {{.Name}}" class="img-responsive center-block">
+				
+				<div class="row">
+					<div class="col-sm-6">
+						<h3>Sintomas</h3>
+						<ul class="list-group">
+						{{range .Sintomas}}
+							<li class="list-group-item">{{.}}</li>
+						{{end}}
+						</ul>
+					</div>
+					<div class="col-sm-6">
+						<h3>Fatores de risco</h3>
+						<ul class="list-group">
+						{{range .RiskFactors}}
+							<li class="list-group-item">{{.}}</li>
+						{{end}}
+						</ul>
+
+						<h3>Drogas</h3>
+						<ul class="list-group">
+						{{range .Drugs}}
+							<li class="list-group-item">{{.}}</li>
+						{{end}}
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
